@@ -1,0 +1,24 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  grid-template: repeat(3, auto) / 1fr;
+  grid-gap: 30px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template: 1fr / repeat(2, auto);
+  grid-gap: 200px;
+  justify-content: space-between;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+}

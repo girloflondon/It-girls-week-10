@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Галерея</title>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">МОЯ ГАЛЕРЕЯ</h1>
+      <div class="gallery">
+        <img
+          class="gallery__picture1 img"
+          src="https://naked-science.ru/wp-content/uploads/2016/07/field_image_kartina-zvezdnaya-noch-van-goga-1024x640.jpg"
+          alt="Звёздная ночь - Винсент ван Гог"
+        />
+        <img
+          class="gallery__picture2 img"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/700px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg"
+          alt="Впечатление. Восходящее солнце - Клод Моне"
+        />
+      </div>
+      <button class="button" onclick="calculateTotalPrice()">
+        Узнать стоимость
+      </button>
+      <p id="total-price"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

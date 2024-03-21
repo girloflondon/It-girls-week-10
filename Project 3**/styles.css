@@ -1,0 +1,33 @@
+.container {
+  font-family: "Gill Sans", sans-serif;
+  display: grid;
+  grid-template: repeat(4, auto) / 1fr;
+  grid-gap: 50px;
+  justify-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template: 1fr / repeat(2, auto);
+  grid-gap: 100px;
+}
+
+.img {
+  width: 400px;
+  height: 250px;
+}
+
+.button {
+  width: 150px;
+  height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 8px;
+}
+
+#total-price {
+  font-size: 30px;
+}
